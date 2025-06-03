@@ -17,10 +17,10 @@ print('\n----------------------------------------------------\n')
 gcd = 0 # store value of gcd
 lcm = 0 # store value of lcm
 
-# first = int(input("Enter the first integer number: ")) # get first number from user
-# second = int(input("Enter the second integer number: ")) # get second number from user
-first = 5
-second = 2
+first = int(input("Enter the first integer number: ")) # get first number from user
+second = int(input("Enter the second integer number: ")) # get second number from user
+# first = 5
+# second = 2
 
 if type(first) == type(0.0):
     print("A float value is entered which is not acceptable")
