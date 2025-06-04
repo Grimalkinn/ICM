@@ -1,0 +1,19 @@
+# this program calculates the value of e
+
+from math import exp
+factor=1
+
+tolerance=1e-17
+term=1
+count=0
+eee=0
+while abs(term)>tolerance:
+    
+    eee+=term
+    term=term/factor
+    factor+=1
+    count+=1
+
+
+print("""the actual value of e is %.18f \n the approximation of e is %.18f\n
+      The loop repeated for %g""" %(exp(1),eee,count))
