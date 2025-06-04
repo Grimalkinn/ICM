@@ -14,7 +14,9 @@ from time import ctime
 
 print('\n----------------------------------------------------\n')
 
-value = answer = count = 0
+value = 0
+answer = 0
+count = 0
 
 nume = int(input("Enter the numerator: 93"))
 deno = int(input("Enter the denominator: 26"))
